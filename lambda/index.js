@@ -2,7 +2,7 @@ const AWS = require('aws-sdk');
 AWS.config.update({
     region: 'us-east-2'
 });
-const dynamodb =new AWS.Dynamodb.DocumentClient();
+const dynamodb = new AWS.Dynamodb.DocumentClient();
 const dynamodbTableName = 'product-inventory';
 const healthPath = '/health';
 const produtctPath = '/product';
